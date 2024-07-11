@@ -76,5 +76,24 @@ Create a directory for each stock exchange in the inputs folder and add csv file
 
 The script logs various levels of messages with timestamps to help in debugging and tracking the process flow. Log messages include warnings for missing files, critical errors for empty or insufficient data, and info messages for successfully saved outlier files. In my experience working in Monitoring I realized just how important logs are for monitoring the well being of software.
 
+## Output Images
+
+The script generates fitting plots for each stock and saves them in the output director. The coefficients have been calculated using Matlab's function polyfit, examples:
+
+- **ASH Fitting Plot**:
+  ![ASH Fitting Plot](output/ASH_fitting.png)
+  
+- **FLTR Fitting Plot**:
+  ![FLTR Fitting Plot](output/FLTR_fitting.png)
+  
+- **GSK Fitting Plot**:
+  ![GSK Fitting Plot](output/GSK_fitting.png)
+  
+- **NMR Fitting Plot**:
+  ![NMR Fitting Plot](output/NMR_fitting.png)
+  
+- **TSLA Fitting Plot**:
+  ![TSLA Fitting Plot](output/TSLA_fitting.png)
+
 
 
