@@ -1,5 +1,5 @@
 # Grosoiu_Andrei_Submission
-This repo was created for the pre-interview challenge at LSEG
+This repo was created for the pre-interview challenge at LSEG.
 
 # Stock Exchange Data Processor
 
@@ -13,7 +13,7 @@ This project is designed to read and process stock exchange data from CSV files.
 - **Logging and Error Handling**: Logs warnings and errors with timestamps for better traceability.
 
 ## Directory Structure
-
+```
 project-root/
 │
 ├── inputs/
@@ -28,6 +28,7 @@ project-root/
 │ └── (outlier files will be saved here)
 ├── main.py
 └── README.md
+```
 
 
 ## Prerequisites
