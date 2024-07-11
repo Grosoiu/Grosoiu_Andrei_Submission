@@ -3,7 +3,7 @@ This repo was created for the pre-interview challenge at LSEG.
 
 # Stock Exchange Data Processor
 
-This project is designed to read and process stock exchange data from CSV files. It identifies outliers in the data and saves the results to new CSV files.
+This project is designed to read and process stock exchange data from CSV files. It identifies outliers in the data and saves the results to new CSV files. The main requirements for the task are done in the main.py file, I took the liberty to create some plots presenting a function that fits the stock values in the plot_stocks.py file. The coefficients for the function have been generated using Matlab.
 
 ## Features
 
@@ -46,10 +46,20 @@ project-root/
     ```bash
     pip install -r requirements.txt
     ```
-2. Run the script:
+3. Run the script:
     ```bash
     python main.py 1 OR python main.py 2, where the number represents how many files should be processed per stock exchange.
     ```
+4. Additionally, if you want to run the script that generates the function that fits the stock values, you can:
+ Install the required dependencies:
+    ```bash
+    pip install -r requirements_extra.txt
+    ```
+  Run the script:
+  ```bash
+  python plot_stocks.py
+  ```
+
 
 
 ## Detailed Description
